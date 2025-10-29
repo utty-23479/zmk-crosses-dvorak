@@ -17,7 +17,7 @@
             bindings = <
 &mt TAB SQT                 &kp COMMA   &kp PERIOD      &kp P           &kp Y       &kp F             &kp G            &kp C        &kp R  &kp L
 &mt ESCAPE A                &kp O       &kp E           &kp U           &kp I       &kp D             &kp H            &kp T        &kp N  &kp S
-&mt LEFT_CONTROL SEMICOLON  &mt CAPS Q  &mt LEFT_WIN J  &mt LEFT_ALT K  &kp X       &kp B             &kp M            &kp W        &kp V  &kp Z
+&mt LEFT_CONTROL SEMICOLON  &mt CAPS Q  &mt LEFT_WIN J  &mt LEFT_ALT K  &lt 3 X     &kp B             &kp M            &kp W        &kp V  &kp Z
                                         &mkp MB1        &mkp MB3        &mkp MB2    &mt LSHIFT ENTER  &lt 2 BACKSPACE  &lt 1 SPACE
             >;
         };
