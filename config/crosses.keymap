@@ -15,28 +15,28 @@
 
         layer_0 {
             bindings = <
-&mt TAB SQT                 &kp COMMA   &kp PERIOD      &kp P           &kp Y                 &kp F             &kp G            &kp C        &kp R  &kp L
-&kp A                       &kp O       &kp E           &kp U           &kp I                 &kp D             &kp H            &kp T        &kp N  &kp S
-&mt LEFT_CONTROL SEMICOLON  &mt CAPS Q  &mt LEFT_WIN J  &mt LEFT_ALT K  &lt 3 X               &kp B             &kp M            &kp W        &kp V  &kp Z
-                                        &lt 1 SPACE     &mkp MB1        &mt LEFT_SHIFT ESC    &mt LSHIFT ENTER  &lt 2 BACKSPACE  &lt 1 SPACE
+&mt CAPS SQT                &kp COMMA  &kp PERIOD  &kp P        &kp Y                 &kp F             &kp G                       &kp C      &kp R  &kp L
+&kp A                       &kp O      &kp E       &kp U        &kp I                 &kp D             &kp H                       &kp T      &kp N  &kp S
+&mt LEFT_CONTROL SEMICOLON  &kp Q      &kp J       &kp K        &lt 3 X               &kp B             &kp M                       &kp W      &kp V  &kp Z
+                                       &mkp MB1    &lt 1 ENTER  &mt LEFT_SHIFT ESC    &mt LEFT_ALT TAB  &mt LEFT_COMMAND BACKSPACE  &kp SPACE
             >;
         };
 
         layer_1 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LEFT_SHIFT   &mkp MB1     &mkp MB3  &mkp MB2    &none          &kp GRAVE  &kp MINUS      &kp EQUAL             &kp LEFT_BRACE        &kp RIGHT_BRACE
-&none            &none        &none     &none       &none          &none      &kp SLASH      &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-                              &mkp MB4  &mkp MB5    &none          &none      &none          &none
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH     &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LEFT_SHIFT   &mkp MB1     &mkp MB3     &mkp MB2    &mkp MB4       &kp GRAVE  &kp MINUS      &kp EQUAL             &kp LEFT_BRACE        &kp RIGHT_BRACE
+&none            &none        &none        &none       &mkp MB5       &none      &kp SLASH      &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+                              &lt 2 SPACE  &none       &lt 3 SPACE    &none      &none          &none
             >;
         };
 
         layer_2 {
             bindings = <
-&kp K_PREV  &kp K_NEXT      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_PLAY_PAUSE    &kp LOCKING_NUM  &kp N7        &kp N8        &kp N9        &kp MINUS
-&none       &none           &kp UP_ARROW       &none            &kp PAGE_UP         &kp PLUS         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK
-&none       &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp PAGE_DOWN       &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-                            &kp K_MUTE         &kp K_LOCK       &kp K_POWER         &none            &none         &none
+&none     &kp K_MUTE      &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_PLAY_PAUSE    &kp LOCKING_NUM  &kp N7        &kp N8        &kp N9        &kp MINUS
+&kp LEFT  &kp DOWN        &kp UP_ARROW       &kp RIGHT        &kp PAGE_UP         &kp PLUS         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK
+&none     &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp PAGE_DOWN       &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+                          &none              &kp K_LOCK       &kp K_POWER         &none            &none         &none
             >;
         };
 
