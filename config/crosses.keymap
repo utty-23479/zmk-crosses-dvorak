@@ -18,7 +18,7 @@
 &mt CAPSLOCK SQT            &kp COMMA  &kp PERIOD  &kp P               &kp Y             &kp F            &kp G                &kp C      &kp R  &kp L
 &mt LEFT_SHIFT A            &kp O      &kp E       &mt LEFT_COMMAND U  &mt LEFT_ALT I    &mt RIGHT_ALT D  &mt RIGHT_COMMAND H  &kp T      &kp N  &mt RIGHT_SHIFT S
 &mt LEFT_CONTROL SEMICOLON  &kp Q      &kp J       &kp K               &lt 3 X           &kp B            &kp M                &kp W      &kp V  &mt RIGHT_CONTROL Z
-                                       &mkp MB1    &kp TAB             &lt 1 ESC         &lt 2 ENTER      &kp BACKSPACE        &kp SPACE
+                                       &mkp MB1    &kp BACKSPACE       &lt 1 ESC         &lt 2 TAB        &kp ENTER            &kp SPACE
             >;
         };
 
